@@ -229,4 +229,4 @@ var saveAs = saveAs
 // while `this` is nsIContentFrameMessageManager
 // with an attribute `content` that corresponds to the window
 
-if (typeof module !== 'undefined') module.exports = saveAs;
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') module.exports = saveAs;
